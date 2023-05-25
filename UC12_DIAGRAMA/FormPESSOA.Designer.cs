@@ -44,22 +44,24 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonCADASTRAR = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxUF = new System.Windows.Forms.ComboBox();
+            this.comboBoxESTADO = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.textBoxBAIRRO = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.textBoxCIDADE = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.textBoxLOGRADOURO = new System.Windows.Forms.TextBox();
-            this.comboBoxESTADO = new System.Windows.Forms.ComboBox();
-            this.comboBoxUF = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.radioButtonOUTROS = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dateTimePickerDATANASC = new System.Windows.Forms.DateTimePicker();
+            this.dataGridViewTABELA = new System.Windows.Forms.DataGridView();
+            this.buttonEXCLUIR = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTABELA)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxNOME
@@ -206,18 +208,11 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "CPF:";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Location = new System.Drawing.Point(155, 308);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 0;
-            // 
             // buttonCADASTRAR
             // 
             this.buttonCADASTRAR.Location = new System.Drawing.Point(155, 759);
             this.buttonCADASTRAR.Name = "buttonCADASTRAR";
-            this.buttonCADASTRAR.Size = new System.Drawing.Size(491, 23);
+            this.buttonCADASTRAR.Size = new System.Drawing.Size(157, 23);
             this.buttonCADASTRAR.TabIndex = 19;
             this.buttonCADASTRAR.Text = "Cadastrar";
             this.buttonCADASTRAR.UseVisualStyleBackColor = true;
@@ -240,108 +235,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(491, 245);
             this.panel1.TabIndex = 20;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(52, 201);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(24, 13);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "UF:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(33, 160);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(43, 13);
-            this.label10.TabIndex = 24;
-            this.label10.Text = "Estado:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(39, 119);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(37, 13);
-            this.label11.TabIndex = 23;
-            this.label11.Text = "Bairro:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(33, 78);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(43, 13);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "Cidade:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(12, 37);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(64, 13);
-            this.label13.TabIndex = 21;
-            this.label13.Text = "Logradouro:";
-            // 
-            // textBoxBAIRRO
-            // 
-            this.textBoxBAIRRO.Location = new System.Drawing.Point(82, 116);
-            this.textBoxBAIRRO.Name = "textBoxBAIRRO";
-            this.textBoxBAIRRO.Size = new System.Drawing.Size(369, 20);
-            this.textBoxBAIRRO.TabIndex = 23;
-            // 
-            // textBoxCIDADE
-            // 
-            this.textBoxCIDADE.Location = new System.Drawing.Point(82, 75);
-            this.textBoxCIDADE.Name = "textBoxCIDADE";
-            this.textBoxCIDADE.Size = new System.Drawing.Size(369, 20);
-            this.textBoxCIDADE.TabIndex = 22;
-            // 
-            // textBoxLOGRADOURO
-            // 
-            this.textBoxLOGRADOURO.Location = new System.Drawing.Point(82, 34);
-            this.textBoxLOGRADOURO.Name = "textBoxLOGRADOURO";
-            this.textBoxLOGRADOURO.Size = new System.Drawing.Size(369, 20);
-            this.textBoxLOGRADOURO.TabIndex = 21;
-            // 
-            // comboBoxESTADO
-            // 
-            this.comboBoxESTADO.FormattingEnabled = true;
-            this.comboBoxESTADO.Items.AddRange(new object[] {
-            "Acre",
-            "Alagoas",
-            "Amapá",
-            "Amazonas",
-            "Bahia",
-            "Ceará",
-            "Espírito Santo",
-            "Goiás",
-            "Maranhão",
-            "Mato Grosso",
-            "Mato Grosso do Sul",
-            "Minas Gerais",
-            "Pará",
-            "Paraíba",
-            "Paraná",
-            "Pernambuco",
-            "Piauí",
-            "Rio de Janeiro",
-            "Rio Grande do Norte",
-            "Rio Grande do Sul",
-            "Rondônia",
-            "Roraima",
-            "Santa Catarina",
-            "São Paulo",
-            "Sergipe",
-            "Tocantins",
-            "Distrito Federal"});
-            this.comboBoxESTADO.Location = new System.Drawing.Point(82, 157);
-            this.comboBoxESTADO.Name = "comboBoxESTADO";
-            this.comboBoxESTADO.Size = new System.Drawing.Size(369, 21);
-            this.comboBoxESTADO.TabIndex = 21;
             // 
             // comboBoxUF
             // 
@@ -379,6 +272,108 @@
             this.comboBoxUF.Size = new System.Drawing.Size(369, 21);
             this.comboBoxUF.TabIndex = 26;
             // 
+            // comboBoxESTADO
+            // 
+            this.comboBoxESTADO.FormattingEnabled = true;
+            this.comboBoxESTADO.Items.AddRange(new object[] {
+            "Acre",
+            "Alagoas",
+            "Amapá",
+            "Amazonas",
+            "Bahia",
+            "Ceará",
+            "Espírito Santo",
+            "Goiás",
+            "Maranhão",
+            "Mato Grosso",
+            "Mato Grosso do Sul",
+            "Minas Gerais",
+            "Pará",
+            "Paraíba",
+            "Paraná",
+            "Pernambuco",
+            "Piauí",
+            "Rio de Janeiro",
+            "Rio Grande do Norte",
+            "Rio Grande do Sul",
+            "Rondônia",
+            "Roraima",
+            "Santa Catarina",
+            "São Paulo",
+            "Sergipe",
+            "Tocantins",
+            "Distrito Federal"});
+            this.comboBoxESTADO.Location = new System.Drawing.Point(82, 157);
+            this.comboBoxESTADO.Name = "comboBoxESTADO";
+            this.comboBoxESTADO.Size = new System.Drawing.Size(369, 21);
+            this.comboBoxESTADO.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(52, 201);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(24, 13);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "UF:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(12, 37);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(64, 13);
+            this.label13.TabIndex = 21;
+            this.label13.Text = "Logradouro:";
+            // 
+            // textBoxBAIRRO
+            // 
+            this.textBoxBAIRRO.Location = new System.Drawing.Point(82, 116);
+            this.textBoxBAIRRO.Name = "textBoxBAIRRO";
+            this.textBoxBAIRRO.Size = new System.Drawing.Size(369, 20);
+            this.textBoxBAIRRO.TabIndex = 23;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(33, 160);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(43, 13);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "Estado:";
+            // 
+            // textBoxCIDADE
+            // 
+            this.textBoxCIDADE.Location = new System.Drawing.Point(82, 75);
+            this.textBoxCIDADE.Name = "textBoxCIDADE";
+            this.textBoxCIDADE.Size = new System.Drawing.Size(369, 20);
+            this.textBoxCIDADE.TabIndex = 22;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(33, 78);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(43, 13);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "Cidade:";
+            // 
+            // textBoxLOGRADOURO
+            // 
+            this.textBoxLOGRADOURO.Location = new System.Drawing.Point(82, 34);
+            this.textBoxLOGRADOURO.Name = "textBoxLOGRADOURO";
+            this.textBoxLOGRADOURO.Size = new System.Drawing.Size(369, 20);
+            this.textBoxLOGRADOURO.TabIndex = 21;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(39, 119);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(37, 13);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "Bairro:";
+            // 
             // radioButtonOUTROS
             // 
             this.radioButtonOUTROS.AutoSize = true;
@@ -390,15 +385,43 @@
             this.radioButtonOUTROS.Text = "Outros";
             this.radioButtonOUTROS.UseVisualStyleBackColor = true;
             // 
+            // dateTimePickerDATANASC
+            // 
+            this.dateTimePickerDATANASC.Location = new System.Drawing.Point(156, 328);
+            this.dateTimePickerDATANASC.Name = "dateTimePickerDATANASC";
+            this.dateTimePickerDATANASC.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePickerDATANASC.TabIndex = 23;
+            // 
+            // dataGridViewTABELA
+            // 
+            this.dataGridViewTABELA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewTABELA.Location = new System.Drawing.Point(767, 40);
+            this.dataGridViewTABELA.Name = "dataGridViewTABELA";
+            this.dataGridViewTABELA.Size = new System.Drawing.Size(633, 765);
+            this.dataGridViewTABELA.TabIndex = 24;
+            this.dataGridViewTABELA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewTABELA_CellContentClick);
+            // 
+            // buttonEXCLUIR
+            // 
+            this.buttonEXCLUIR.Location = new System.Drawing.Point(318, 759);
+            this.buttonEXCLUIR.Name = "buttonEXCLUIR";
+            this.buttonEXCLUIR.Size = new System.Drawing.Size(157, 23);
+            this.buttonEXCLUIR.TabIndex = 25;
+            this.buttonEXCLUIR.Text = "Excluir";
+            this.buttonEXCLUIR.UseVisualStyleBackColor = true;
+            this.buttonEXCLUIR.Click += new System.EventHandler(this.buttonEXCLUIR_Click);
+            // 
             // FormPESSOA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 817);
+            this.ClientSize = new System.Drawing.Size(1412, 817);
+            this.Controls.Add(this.buttonEXCLUIR);
+            this.Controls.Add(this.dataGridViewTABELA);
+            this.Controls.Add(this.dateTimePickerDATANASC);
             this.Controls.Add(this.radioButtonOUTROS);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonCADASTRAR);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -417,9 +440,9 @@
             this.Controls.Add(this.textBoxNOME);
             this.Name = "FormPESSOA";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTABELA)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -443,7 +466,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button buttonCADASTRAR;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBoxUF;
@@ -457,6 +479,9 @@
         private System.Windows.Forms.TextBox textBoxLOGRADOURO;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.RadioButton radioButtonOUTROS;
+        private System.Windows.Forms.DateTimePicker dateTimePickerDATANASC;
+        private System.Windows.Forms.DataGridView dataGridViewTABELA;
+        private System.Windows.Forms.Button buttonEXCLUIR;
     }
 }
 
